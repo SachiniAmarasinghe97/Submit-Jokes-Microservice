@@ -1,10 +1,6 @@
 import mongoose from "mongoose";
 
 const jokeSchema = new mongoose.Schema({
-    // id: {
-    //     type: mongoose.Schema.Types.ObjectId,
-    //     default: mongoose.Types.ObjectId, // Automatically generates a unique ID
-    //   },
       content: {
         type: String,
         required: true,
